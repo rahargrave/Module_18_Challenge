@@ -20,14 +20,18 @@ const userSchema = new Schema(
         thoughts: [
             {
                 type: Schema.Types.ObjectId,
-                ref: 'Thoughts',
+                ref: 'Thought',
             },
         ],
         friends: [
             {
                 type: Schema.Types.ObjectId,
-                ref: 'Friends',
+                ref: 'Friend',
             },
         ],
     }
-)
+);
+
+const User = model('user', userSchema);
+
+module.exports = User;
