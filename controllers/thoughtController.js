@@ -5,16 +5,9 @@ module.exports = {
     async getThoughts(req, res) {
         try {
             const thoughts = await Thought.find();
-
-            const thoughtObj = {
-                thoughts,
-                headCount: await headCount(),
-            };
-
-            res.json(thoughtObj);
+            res.json(thoughts);
         } catch (err) {
-            console.log(err);
-            return res.status(500).json(err);
+            res.status(500).json(err);
         }
     },
     // Get a single thought
