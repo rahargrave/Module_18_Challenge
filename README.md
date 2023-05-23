@@ -2,7 +2,7 @@
 
 This is an API for a social network platform built using Node.js and MongoDB. It allows users to create accounts, add friends, post their thoughts, and react to others' thoughts, among other features.
 
-[![Watch the video](https://drive.google.com/file/d/1fcP070IRRZK4ukKWmzeHGtTpIaxuy943/view)](https://drive.google.com/file/d/1fcP070IRRZK4ukKWmzeHGtTpIaxuy943/view)
+[![Watch the video](https://internbridge.com/wp-content/uploads/2019/01/click-here-to-watch-video.jpg)](https://drive.google.com/file/d/1fcP070IRRZK4ukKWmzeHGtTpIaxuy943/view)
 
 ## Table of Contents
 
